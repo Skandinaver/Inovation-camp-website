@@ -1,33 +1,45 @@
+html{
+
+    font-family: 'Oswald', sans-serif;
+    
+}
+
 .logo
 { 
+
     display: inline-block;
-    color: rgb(225,229,242);
+    color: white;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 45px;
     margin-left: 20%;
     margin-top: 30px;
+
 }
 
 .navbar{
     
-    color: rgb(225,229,242);
+    color: white;
     display: inline-block;
     background-color: rgb(228, 148, 0);
     width: 100%;
+    
 }
     
 .navItem
 {
+    
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
     margin-top: 10%;
+
 }
 
 .navSector
 {
+    flex-wrap: wrap;
     float: right;
     display: flex;
     justify-content: center;
@@ -39,6 +51,7 @@
 .logoSector
 {
     float: left; 
+    
 }
 
 .contentSection
@@ -86,7 +99,7 @@ img{
     padding-top: 10px;
     padding-bottom: 10px;   
     
-    color: rgb(225,229,242);
+    color: white;
     letter-spacing: 3px;
     font-size: 10px;
     text-align: center;
@@ -94,7 +107,7 @@ img{
 
 a, a:link, a:visited a:hover
 {
-    color: rgb(225,229,242);;
+    color: white;
     text-decoration: none;
 }
 
